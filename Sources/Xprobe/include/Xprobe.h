@@ -166,6 +166,8 @@ extern BOOL xprobeRetainObjects;
 #import "iOSInjection-Swift.h"
 #elif __has_include("maciOSInjection-Swift.h")
 #import "maciOSInjection-Swift.h"
+#elif __has_include("iOSDeviceInjection-Swift.h")
+#import "iOSDeviceInjection-Swift.h"
 #endif
 #else
 @interface XprobeSwift : NSObject
